@@ -1,4 +1,4 @@
-const Post = require('../models/user');
+const Post = require('../models/post');
 
 const getPostsController =  (req, res) => {
     res.json({
