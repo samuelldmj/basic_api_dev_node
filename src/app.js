@@ -6,6 +6,7 @@ const express = require('express'); // Import the Express framework
 const { router } = require('./routes/route'); // Import the router from the routes module
 const morgan = require('morgan'); // Import the morgan middleware for logging HTTP requests
 const app = express(); // Create an instance of an Express application
+// const { body, validationResult } = require('express-validator');
 const dotenv = require('dotenv'); // Import dotenv to load environment variables from a .env file
 const { default: mongoose } = require('mongoose'); // Import mongoose for MongoDB object modeling
 const bodyParser = require('body-parser'); // Import body-parser to parse incoming request bodies
